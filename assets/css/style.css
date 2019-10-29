@@ -1,0 +1,97 @@
+
+body{
+    background-color: #F44336;
+    text-align: center;
+    padding: 15px;
+}
+
+.borderRadius50Per{
+    border-radius: 50%;
+}
+
+.userCardContainer {
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 30px 20px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 240px;
+    min-width: 180px;
+    font-family: 'Montserrat', sans-serif;
+    color: #374247;
+    font-size: 18px;
+}
+
+.userAvatar{
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*all first level child*/
+.userCardContainer > * {
+    margin: 0 auto;
+}
+
+.userCardContainer > h4 {
+
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.userCardContainer > h5 {
+    margin-top: 4px;
+    opacity: 0.8;
+    font-size: 0.8em;
+}
+
+.userCardContainer > hr {
+    border-top: 1px solid black;
+    opacity: 0.2;
+    width: 60px;
+    margin-top: 20px;
+}
+
+
+.contactsContainer{
+    margin-top: 60px;
+}
+
+.contactsContainer > a {
+    text-decoration: none;
+}
+
+.iconContainer{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+/* only for iconContainer after other iconContainer*/
+.iconContainer + .iconContainer {
+    margin-left: 10px;
+}
+
+.iconContainer > img {
+    vertical-align: middle;
+}
+
+.verticalAlignHelper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.borderColorOrange{
+    border-color: #F44336;
+}
+.borderColorBlue{
+    border-color: #2196F3;
+}
+.borderColorPink{
+    border-color: #E91E63;
+}
